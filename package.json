@@ -1,0 +1,20 @@
+{
+  "name": "js_tdd",
+  "version": "1.0.0",
+  "description": "implementing tests in JS project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeLAB/js_tdd.git"
+  },
+  "keywords": ["js", "webpack", "tdd"],
+  "author": "Jorge Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeLAB/js_tdd/issues"
+  },
+  "homepage": "https://github.com/JorgeLAB/js_tdd#readme"
+}
