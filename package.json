@@ -4,17 +4,33 @@
   "description": "implementing tests in JS project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JorgeLAB/js_tdd.git"
   },
-  "keywords": ["js", "webpack", "tdd"],
+  "keywords": [
+    "js",
+    "webpack",
+    "tdd"
+  ],
   "author": "Jorge Borges",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JorgeLAB/js_tdd/issues"
   },
-  "homepage": "https://github.com/JorgeLAB/js_tdd#readme"
+  "homepage": "https://github.com/JorgeLAB/js_tdd#readme",
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "husky": "^5.0.6",
+    "mocha": "^8.2.1",
+    "prettier": "^2.2.1"
+  }
 }
