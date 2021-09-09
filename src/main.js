@@ -1,5 +1,5 @@
 const a = 3;
 const b = 2;
-const f = 4;
+const f ;
 
 console.log(a)
