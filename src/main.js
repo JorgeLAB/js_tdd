@@ -1,4 +1,3 @@
 const a = 3;
 const b = 2;
-
-console.log(a)
+const f = 3;
