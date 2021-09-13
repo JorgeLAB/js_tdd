@@ -1,5 +1,3 @@
-function test(a) {
-  return a ** 2;
-}
-
-test(3);
+const a = 3;
+const b = 2;
+const f = 3;
